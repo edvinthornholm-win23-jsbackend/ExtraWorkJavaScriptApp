@@ -25,8 +25,8 @@ export default function Home() {
                 </div>
 
                 <div className="account-buttons">
-                    <Link className="btn-gray"href="/singin"><i className="fa-light fa-right-to-bracket"></i><span>Sign in</span></Link>
-                    <Link className="btn-theme"href="/singup"><i className="fa-regular fa-user"></i><span>Sign up</span></Link>
+                    <Link className="btn-gray"href="/signin"><i className="fa-light fa-right-to-bracket"></i><span>Sign in</span></Link>
+                    <Link className="btn-theme"href="/signup"><i className="fa-regular fa-user"></i><span>Sign up</span></Link>
 
                 </div>
 
