@@ -1,0 +1,45 @@
+/* .header{
+
+    padding: 10px 0;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo nav switch buttons";
+    gap: 40px;
+}   
+
+.logo {
+    grid-area: logo;
+}
+
+.nav {
+    grid-area: nav;
+    display: flex !important;
+    gap: 15px;
+    background-color: transparent;
+    
+}
+
+.nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--gray-800);
+    padding: 0;
+}
+
+.nav a:hover{
+    color: var(--theme);
+}
+
+.accountButtons{
+    grid-area: buttons;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+} */
