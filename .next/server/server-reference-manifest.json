@@ -1,5 +1,14 @@
 {
-  "node": {},
+  "node": {
+    "1b608026cc30a71e5ab9b9e9d10046460b1c6506": {
+      "workers": {
+        "app/signin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CEducation%5C%5CJavaScript-Backend-assignment%5C%5CSiliconNextJSTypeScript%5C%5Capp%5C%5Csignin%5C%5CsignInAction.ts%22%2C%5B%22default%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/signin/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "onCa6z7y8E+nwZ86p/6RB+owl6Eg8Cu1SIJkI2HDJBQ="
+  "encryptionKey": "F0RWOGdIilROG3hKkN8MXXoSJv5XyWRvDU4FInd7rTQ="
 }
