@@ -1,5 +1,4 @@
 'use client';
-
 import { useRouter } from 'next/navigation';
 import signOutAction from './authService';
 
@@ -10,6 +9,7 @@ const useLogout = () => {
     const result = await signOutAction();
     if (result.success) {
       router.push('/');
+  
     } else {
       console.error('Logout failed:', result.error);
     }

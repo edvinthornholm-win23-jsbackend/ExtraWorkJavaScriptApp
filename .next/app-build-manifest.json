@@ -11,11 +11,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/signout/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/signout/page.js"
-    ],
     "/signin/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -26,15 +21,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/account/details/page.js"
     ],
-    "/courses/page": [
+    "/signout/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/courses/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/signout/page.js"
     ]
   }
 }
