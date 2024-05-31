@@ -1,21 +1,16 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import useLogout from '../components/utils/auth'; 
 
-export default function SignOut() {
-  const router = useRouter();
+const SignOutPage = () => {
+  const handleLogout = useLogout();
 
   useEffect(() => {
-    const signOut = async () => {
-      // Anropa API-rutten för att ta bort cookien
-      await fetch('/api/signout');
-      // Omdirigera till startsidan
-      router.push('/');
-    };
+    handleLogout();
+  }, [handleLogout]);
 
-    signOut();
-  }, [router]);
+  return <p>Logging out...</p>;
+};
 
-  return null;
-}
+export default SignOutPage;
